@@ -5,14 +5,27 @@ body{
 h1{
     font-size: 50px;
 }
+.h1-top{
+    margin-left: 10px;
+}
 h2{
     font-size: 40px;
+}
+.mission-h2{
+    color: #000080;
+    text-align: center;
 }
 h3{
     font-size: 25px;
 }
+.orange-col{
+    color: orange;
+}
 .flexible-container{
     display: flex;
+}
+.color-title{
+    color: rgb(253, 45, 8);
 }
 .section-full-div{
     margin-left: 100px;
@@ -27,17 +40,21 @@ h3{
     width: 80%;
     margin-top: 50px;
 }
+.h2-top{
+    margin-top: 100px;
+}
 .half-part-div{
     border-left: 7px solid;
-    border-image: linear-gradient(red, tomato);
+    border-image: linear-gradient(yellow, tomato,blue);
     border-image-slice: 1;
 }
 .button-link{
     text-decoration: none;
     padding: 10px 30px;
-    background-image: linear-gradient(red,tomato);
+    background-image: linear-gradient(orange,tomato);
     color: white;
-    border-radius: 5px;
+    border-radius: 15px;
+    margin-top: 15px;
 }
 .mission-section{
     width: 28%;
@@ -57,4 +74,42 @@ h3{
 }
 #goal-id{
     background-color: aquamarine;
+}
+.cont-form-all{
+    text-align: center;
+}
+.cont-form{
+    margin-top: 50px;
+}
+.input-box{
+    margin-top: 25px;
+    width: 420px;
+    height: 40px;
+    padding-left: 25px;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+.text-field{
+    height: 140px;
+    padding-top: 20px;
+}
+.cont-title{
+    box-shadow: 5px 5px 40px black;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 40px;
+}
+footer{
+    background-color: black;
+    padding-top: 12px;
+    padding-bottom: 20px;
+}
+footer h3{
+    color: white;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    color: thistle;
 }
