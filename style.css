@@ -24,6 +24,7 @@ h3{
 }
 .flexible-container{
     display: flex;
+    margin-left: 50px;
 }
 .color-title{
     color: rgb(253, 45, 8);
@@ -67,11 +68,11 @@ h3{
 }
 #mi-id{
     background-color: #FED3FF;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 #vi-id{
     background-color: #FDFFC0;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 #goal-id{
     background-color: #CCFFFF;
